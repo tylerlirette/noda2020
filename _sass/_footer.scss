@@ -1,0 +1,67 @@
+@import 'noda-variables.scss';
+
+footer {
+    background-color: #333;
+
+    div {
+        text-align: center;
+
+        p {
+            color: #fff;
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .social {
+        padding-bottom: 1rem;
+
+        a {
+
+            i {
+                color: #fff;
+                font-size: 2rem;
+                margin: 0 .25rem;
+                padding: 0 .25rem;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    color: #b8b8b8;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    .lower-footer {
+        background-color: #1f1f1f;
+
+        a {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: #868686;
+        }
+    }
+
+    h4 {
+        margin: 1.5rem 0;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    #mc_embed_signup label {
+        font-weight: normal;
+        font-size: 1rem;
+        color: #fff;
+    }
+}

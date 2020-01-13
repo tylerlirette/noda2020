@@ -1,0 +1,138 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+body { font-family: 'Open Sans', sans-serif; color: #5e5e5e; }
+
+a { color: #1183F7; transition: all 0.2s ease-in-out; }
+
+a:hover { color: #023C78; transition: all 0.2s ease-in-out; }
+
+h1, h2, h3, h4, h5 { font-weight: 700; font-family: 'Montserrat', sans-serif; color: #1f1f1f; }
+
+.content { padding-top: 5vh; padding-bottom: 5vh; }
+
+.typeform-widget { border: 1px solid #eee; }
+
+.bye-button { background: linear-gradient(135deg, #8aa527 0%, #bfd857 100%); color: #fff; border-radius: 25px; padding: .75rem 2rem; display: inline-block; margin-bottom: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 700; }
+
+.flex-area { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; }
+
+.flex-area.designer-surfaces .flex-block { width: 250px; margin: 30px; }
+
+.flex-area.accessories .flex-block { width: 200px; }
+
+.flex-area .flex-block { display: flex; flex-direction: row; align-items: center; justify-content: center; width: 285px; background-position: center; background-size: cover; border-radius: 5px; margin: 10px; }
+
+.flex-area .flex-block h4, .flex-area .flex-block h5 { text-align: center; }
+
+.flex-area .flex-block h5 { padding-top: .5rem; }
+
+.flex-area .flex-block img { width: 100%; }
+
+.flex-area .flex-block a { font-family: 'Oswald', sans-serif; opacity: 1; background-color: rgba(0, 0, 0, 0.4); color: #fff; transition: .3s ease-in-out; display: block; width: 100%; text-align: center; padding: 100px 0; font-size: 1.5rem; border-radius: 5px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+
+.flex-area .flex-block a:hover { opacity: 1; transition: .3s ease-in-out; text-decoration: none; background-color: rgba(138, 165, 39, 0.2); }
+
+.flex-area .flex-block.pool-shapes { background-image: url("/images/home/pool-shapes.jpg"); }
+
+.flex-area .flex-block.designer-surfaces { background-image: url("/images/home/designer-surfaces.jpg"); }
+
+.flex-area .flex-block.accessories { background-image: url("/images/home/accessories.jpg"); }
+
+.carousel-caption h3 { color: #fff; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
+
+hr { margin: 3rem 0; }
+
+h2 { padding: 1rem 0 2rem 0; }
+
+h3 { text-align: center; margin-bottom: 1.5rem; }
+
+h4 { text-transform: uppercase; letter-spacing: 2px; font-weight: 500; text-align: center; margin: 1.5rem 0 3rem 0; }
+
+h5 { font-size: 1.05rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.5rem; }
+
+h6 { font-weight: 700; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; padding: 1rem 0; text-align: center; }
+
+.stitchy { max-width: 100%; }
+
+/* Color Theme Swatches in Hex */
+footer { background-color: #333; }
+
+footer div { text-align: center; }
+
+footer div p { color: #fff; }
+
+footer div p a { color: #fff; }
+
+footer div p a:hover { color: #fff; }
+
+footer .social { padding-bottom: 1rem; }
+
+footer .social a i { color: #fff; font-size: 2rem; margin: 0 .25rem; padding: 0 .25rem; transition: all 0.3s ease-in-out; }
+
+footer .social a i:hover { color: #b8b8b8; transition: all 0.3s ease-in-out; }
+
+footer .lower-footer { background-color: #1f1f1f; }
+
+footer .lower-footer a { color: #fff; text-transform: uppercase; letter-spacing: 2px; }
+
+footer .lower-footer p { color: #868686; }
+
+footer h4 { margin: 1.5rem 0; color: #fff; font-size: 2rem; }
+
+footer #mc_embed_signup label { font-weight: normal; font-size: 1rem; color: #fff; }
+
+/* Color Theme Swatches in Hex */
+nav { transition: all 0.3s ease-in-out; }
+
+.bg-transition { background-color: #1f1f1f; transition: all 0.3s ease-in-out; box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2); }
+
+.bg-glass { background-color: rgba(0, 0, 0, 0); transition: all 0.3s ease-in-out; }
+
+.navbar { font-family: 'Raleway', sans-serif; font-size: 1.15rem; padding: 1.2rem; }
+
+.navbar .navbar-brand img { width: 140px; height: 53px; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link { color: #F74336; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link { color: #fff; transition: all 0.2s ease-in-out; padding-left: 0; padding-right: 0; margin-left: 1rem; margin-right: 1rem; text-shadow: 2px 2px 3px #111; font-weight: 700; font-size: .85rem; letter-spacing: 2px; text-transform: uppercase; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover { color: #F74336; transition: all 0.2s ease-in-out; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu { right: 0; left: auto; background-color: #1f1f1f; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item { font-weight: 700; font-size: .85rem; letter-spacing: 2px; text-transform: uppercase; transition: all 0.2s ease-in-out; text-align: right; }
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover { color: #F74336; transition: all 0.2s ease-in-out; }
+
+.navbar a { color: #fff; }
+
+/* Color Theme Swatches in Hex */
+.jumbotron-fluid { background: url("/images/hero/noda-home-hero.jpg"); background-size: cover; background-position: center; display: flex; margin-bottom: 0; position: relative; }
+
+.jumbotron-fluid:before { content: ''; background: linear-gradient(135deg, #143980 0%, #bfd857 100%); position: absolute; top: 0; right: 0; left: 0; bottom: 0; opacity: 0.2; }
+
+.jumbotron-fluid.hero-home { height: 100vh; }
+
+.jumbotron-fluid.hero-default { height: 50vh; }
+
+.jumbotron-fluid.hero-locator { height: 50vh; }
+
+.jumbotron-fluid .display-2 { font-weight: 700; font-family: 'Montserrat', sans-serif; line-height: 1; padding-bottom: 1rem; text-shadow: 2px 2px 3px #111; }
+
+@media screen and (max-width: 991px) { .jumbotron-fluid .display-2 { font-size: 5rem; } }
+
+@media screen and (max-width: 767px) { .jumbotron-fluid .display-2 { font-size: 3.875rem; } }
+
+@media screen and (max-width: 575px) { .jumbotron-fluid .display-2 { font-size: 2.75rem; } }
+
+.jumbotron-fluid h3 { text-shadow: 2px 2px 3px #111; }
+
+.jumbotron-fluid .phone-bar { position: absolute; text-align: center; bottom: 0; left: 0; padding-bottom: 1rem; padding-top: 1rem; background: rgba(0, 0, 0, 0.22); z-index: 100; }
+
+.jumbotron-fluid .phone-bar a { color: #fff; font-family: 'Oswald', sans-serif; font-size: 1.3rem; }
+
+@media screen and (max-width: 575px) { .jumbotron-fluid .phone-bar a { font-size: 1rem; } }
+
+.jumbotron-fluid * { color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

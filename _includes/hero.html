@@ -1,0 +1,20 @@
+<div class="jumbotron jumbotron-fluid align-items-center hero-{{page.layout}}">
+  {% if page.layout == 'home' %}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center animated fadeInUp">
+        <h3>Welcome to the</h3>
+        <h1 class="display-2">New Orleans Dodgeball Association</h1>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-2">{{page.hero-text}}</h1>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,171 @@
+@import 'noda-variables.scss';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5e5e5e;
+}
+
+a {
+    color: $noda-blue;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: $noda-dark-blue;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: $dark-grey;
+}
+
+.content {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.typeform-widget {
+    border: 1px solid #eee;
+}
+
+.bye-button {
+    background: linear-gradient(135deg, $olive 0%, $neon 100%);
+    color: #fff;
+    border-radius: 25px;
+    padding: .75rem 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &.designer-surfaces {
+
+        .flex-block {
+            width: 250px;
+            margin: 30px;
+        }
+    }
+
+    &.accessories {
+
+        .flex-block {
+            width: 200px;
+        }
+    }
+
+    .flex-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 285px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        margin: 10px;
+
+        h4, h5 {
+            text-align: center;
+        }
+
+        h5 {
+            padding-top: .5rem;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        a {
+            font-family: 'Oswald', sans-serif;
+            opacity: 1;
+            background-color: rgba(0,0,0,0.4);
+            color: #fff;
+            transition: .3s ease-in-out;
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 100px 0;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+            &:hover {
+                opacity: 1;
+                transition: .3s ease-in-out;
+                text-decoration: none;
+                background-color: rgba(138, 165, 39, 0.2);
+            }
+        }
+
+        &.pool-shapes {
+            background-image: url('/images/home/pool-shapes.jpg');
+        }
+
+        &.designer-surfaces {
+            background-image: url('/images/home/designer-surfaces.jpg');
+        }
+
+        &.accessories {
+            background-image: url('/images/home/accessories.jpg');
+        }
+    }
+}
+
+.carousel-caption {
+    h3 {
+        color: #fff;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+    }
+}
+
+
+hr {
+    margin: 3rem 0;
+}
+
+h2 {
+    padding: 1rem 0 2rem 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+    margin: 1.5rem 0 3rem 0;
+}
+
+h5 {
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    text-align: center;
+}
+    
+.stitchy {
+    max-width: 100%;
+}

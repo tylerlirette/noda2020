@@ -1,0 +1,89 @@
+@import 'noda-variables.scss';
+
+nav {
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-transition {
+    background-color: $dark-grey;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, .2);
+}
+
+.bg-glass {
+    background-color: rgba(0,0,0,0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15rem;
+    padding: 1.2rem;
+
+    .navbar-brand {
+
+        img {
+            width: 140px;
+            height: 53px;
+        }
+    }
+
+    .navbar-collapse {
+
+        .navbar-nav {
+
+            .nav-item {
+
+                &.active {
+                    
+                    .nav-link {
+                        color: $noda-light-red;
+                    }
+                }
+
+                .nav-link {
+                    color: #fff;
+                    transition: all 0.2s ease-in-out;
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    text-shadow: 2px 2px 3px #111;
+                    font-weight: 700;
+                    font-size: .85rem;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: $noda-light-red;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+
+                .dropdown-menu {
+                    right: 0;
+                    left: auto;
+                    background-color: #1f1f1f;
+
+                    .dropdown-item {
+                        font-weight: 700;
+                        font-size: .85rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        transition: all 0.2s ease-in-out;
+                        text-align: right;
+
+                        &:hover {
+                            color: $noda-light-red;
+                            transition: all 0.2s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        color: #fff;
+    }
+}
