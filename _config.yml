@@ -19,7 +19,7 @@ description: >
 url: "http://neworleansdodgeball.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-permalink: / 
+permalink: /noda2020 
 destination: _site
 incremental: true
 markdown: kramdown
